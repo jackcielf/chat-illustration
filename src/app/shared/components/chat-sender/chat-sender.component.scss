@@ -1,9 +1,13 @@
-.chat-sender__box {
-  max-width: 67%;
-  font-size: 0.8em;
-  color: var(--chat-right);
-  background-color: var(--white);
-  padding: 1em;
-  border-radius: 15px 15px 5px 15px;
-  float: inline-end;
+.sender__box {
+  display: flex;
+  justify-content: flex-end;
+
+  .chat-sender__box {
+    max-width: 67%;
+    font-size: 0.8em;
+    color: var(--chat-right);
+    background-color: var(--white);
+    padding: 1em;
+    border-radius: 15px 15px 5px 15px;
+  }
 }
