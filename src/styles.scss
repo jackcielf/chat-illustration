@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+}
+
+:root {
+    --white: #fff;
+    --violet-back: #f5f3f7;
+    --gradient-back: linear-gradient(40deg, #8838ff, #e942ff);
+    --gradient-back-price: linear-gradient(to left, #8838ff, #e942ff);
+    --submit-button: #3e2753;  
+    --button-outline: #eb92ff;
+    
+    --chat-back: #f1e1ffc4;
+    --chat-left: #9241c8;
+    --chat-right: #6e5d7e;
+    --placeholder-text: #c6cacd;
+    --dark-violet-satured:  #3e2753;
+    --ui: #d89eff;
+    --paragraph: #a39daa;
+}

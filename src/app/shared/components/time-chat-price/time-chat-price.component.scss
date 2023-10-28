@@ -1,0 +1,38 @@
+.time-chat__box {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--gradient-back-price);
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  border-radius: 15px 15px 15px 5px;
+
+  .time__box {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+
+    .circle__element {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid var(--button-outline);
+    }
+
+    span {
+      font-weight: 400;
+      font-size: 0.8em;
+      color: var(--white);
+    }
+  }
+
+  span {
+    font-weight: 700;
+    color: var(--white);
+  }
+}
+
+.sender {
+  border-radius: 15px 15px 5px 15px;
+  float: inline-end;
+}

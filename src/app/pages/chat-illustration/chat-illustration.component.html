@@ -1,0 +1,50 @@
+<main class="chat__container">
+  <div class="background__element"></div>
+  <div class="smartphone__box">
+    <div class="camera-front__element"></div>
+    <app-header-avatar name="Samuel Green"></app-header-avatar>
+
+    <div class="chat-view__container">
+      <app-chat-receiver
+        chat="That sounds great. I’d be happy with that."
+      ></app-chat-receiver>
+      <app-chat-receiver
+        chat="Could you send over some pictures of your dog, please?"
+      ></app-chat-receiver>
+
+      <div class="images__box">
+        <img src="/assets/images/dog-image-1.jpg" alt="Dog 1" />
+        <img src="/assets/images/dog-image-2.jpg" alt="Dog 2" />
+        <img src="/assets/images/dog-image-3.jpg" alt="Dog 3" />
+      </div>
+
+      <app-chat-sender
+        chat="Here are a few pictures. She’s a happy girl!"
+      ></app-chat-sender>
+      <app-chat-sender chat="Can you make it?"></app-chat-sender>
+
+      <app-chat-receiver
+        chat="She looks so happy! The time we discussed works. How long shall I take her out for?"
+      ></app-chat-receiver>
+
+      <app-time-chat-price price="29" time="30 minute"></app-time-chat-price>
+      <app-time-chat-price price="49" time="1 hour"></app-time-chat-price>
+    </div>
+
+    <div class="chat-field__box">
+      <div class="input__box">
+        <input type="text" placeholder="Type a message..." />
+        <button class="submit__chat"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="text__box">
+    <h1>Simple booking</h1>
+    <p>
+      Stay in touch with our dog walkers through the chat interface. This makes
+      it easy to discuss arrangements and make bookings. Once the walk has been
+      completed you can rate your walker and book again all through the chat.
+    </p>
+  </div>
+</main>
